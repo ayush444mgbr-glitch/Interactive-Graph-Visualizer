@@ -10,12 +10,7 @@ Built using **Flask**, **SymPy**, and **Plotly.js**, this tool enables users to 
 
 ---
 
-## 🚀 Live Demo
 
-👉 https://your-render-link.onrender.com
-*(Add your deployed link here)*
-
----
 
 ## ✨ Features
 
@@ -95,4 +90,77 @@ http://127.0.0.1:5000
    a * sin(b * x)
    ```
 
-   → Sl
+   → Sliders will appear automatically
+
+3. **Quick Templates**
+   Load common graphs like:
+
+   * Bell Curve
+   * Sigmoid
+   * Circle
+
+4. **Upload CSV Data**
+
+   * Upload 2-column CSV (x, y)
+   * Visualize alongside functions
+
+5. **Adjust Settings**
+
+   * Modify ranges
+   * Toggle grid
+   * Change graph type
+
+---
+
+## 📂 Project Structure
+
+```
+Interactive-Graph-Visualizer/
+│
+├── app.py                  # Flask backend & API
+├── requirements.txt        # Dependencies
+├── Procfile                # Deployment config
+│
+├── templates/
+│   └── index.html          # Main UI
+│
+└── static/
+    ├── css/style.css       # Styling
+    └── js/main.js          # Frontend logic
+```
+
+---
+
+## 🎯 Future Improvements
+
+* 📊 3D graph plotting
+* 🤖 AI-based equation suggestions
+* 📱 Fully responsive mobile UI
+* 🔗 Shareable graph links
+* 📈 Advanced analytics tools
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Kumar**
+B.Tech Student
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
